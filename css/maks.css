@@ -1,0 +1,15 @@
+.header{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 100%), url('../img/1033048215.jpg') no-repeat center top / cover;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+    font-size: 19px;
+    position: relative;
+}
+html{
+    height: 100%;
+    overflow: scroll;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 100%), url('../img/1033048215.jpg') no-repeat fixed center/cover;
+}
+.massanger-box{
+    margin-top: 100px;
+}

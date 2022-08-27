@@ -1,0 +1,16 @@
+.header{
+    background:linear-gradient(90deg, rgba(0, 0, 0, 0.3) 50%, rgba(0, 0, 0, 0) 50%), url('../img/22443ac60bd4cda7aa0c5e670d4ca70aa25c903f\ 1.png') no-repeat center top / cover !important;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+    font-size: 19px;
+    position: relative;
+    
+}
+html{
+    height: 100%;
+    overflow: scroll;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 100%), url('../img/22443ac60bd4cda7aa0c5e670d4ca70aa25c903f\ 1.png') no-repeat fixed center/cover !important;
+}
+.familt-link{
+    width: auto !important;
+}

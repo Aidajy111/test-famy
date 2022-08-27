@@ -1,0 +1,224 @@
+.header{
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 100%), url('../img/1648950936_15-vsegda-pomnim-com-p-snezhnaya-zima-v-lesu-foto-16.jpg') no-repeat center top / cover;
+    height: 100%;
+    padding: 0px 0px 0px 0px;
+    font-size: 19px;
+    position: relative;
+    
+}
+html{
+    height: 100%;
+    overflow: scroll;
+    background:linear-gradient(180deg, rgba(0, 0, 0, 0.6) 0%, rgba(0, 0, 0, 0.4) 100%), url('../img/1648950936_15-vsegda-pomnim-com-p-snezhnaya-zima-v-lesu-foto-16.jpg') no-repeat fixed center/cover;
+}
+.text{
+    margin-top: 16px;
+}
+.menu__burger{
+    top: -133px;
+}
+.menu__burger{
+    top: 29px;
+}
+.text p{
+    width: 553px;
+    font-size: 32px;
+}
+.animate-title{
+    width: 553px;
+}
+.figure-two{
+    left: 10%;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+}
+.figure-two:hover{
+    width: 60px;
+    height: 60px;
+}
+.familt-link{
+
+    width: 397px;
+}
+.box-image img{
+    border-radius: 0px 0px 0px 400px;
+}
+.img-block__img{
+    border-radius: 0px 0px 0px 400px;
+}
+.figure-three{
+    left: 50%;
+}
+.img-block__father img{
+    width: 100%;
+    height: 100%;
+}
+.img-block__father{
+
+    width: 563px;
+    height: 757px;
+    border-radius: 0px 0px 0px 400px;
+    box-shadow:-14px -15px 60px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+}
+.img-block{
+    position: relative;
+}
+.img-block__father .slick-arrow{
+    position: absolute;
+    top: 50%;
+    z-index: 4000;
+    width: 62px;
+    height: 62px;
+    border: none;
+    font-size: 0;
+    box-shadow: -1px 3px 10px rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+    border-radius: 50%;
+}
+.img-block__father .slick-arrow.slick-prev{
+    left: 81px;
+    background:url('../img/Arrow\ 1.png') center center no-repeat, linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 100%);
+}
+.img-block__father .slick-arrow.slick-next{
+    right: 81px;
+    background: url('../img/Arrow\ 22.png') center center no-repeat, linear-gradient(180deg, rgba(255, 255, 255, 0.8) 0%, rgba(255, 255, 255, 0.8) 100%);
+}
+.link-number{
+    font-size: 24px;
+    display: block;
+    margin-bottom: 120px;
+    text-decoration: none;
+    color: #fff;
+    display: flex;
+    justify-content: end;
+}
+.link-number img{
+    margin-right: 12px;
+}
+.familt-link{
+    margin-left: 26px;
+    margin-top: 0;
+}
+.button-link{
+    display: flex;
+    margin-top: 44px;
+}
+.familt-arrow{
+    width: 73px;
+    height: 73px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fff;
+    box-shadow: 0px 0px 38px rgba(255, 255, 255, 0);
+    border-radius: 50%;
+    transition: all 0.3s ease 0s;
+}
+.familt-arrow:hover{
+    box-shadow: 0px 0px 38px rgba(255, 255, 255, 0.6);
+}
+.massanger-box{
+    display: flex;
+    margin-top: 100px;
+    justify-content: end;
+}
+.tellegram{
+    margin-right: 31px;
+    transition: all 0.3s ease 0s;
+}
+.tellegram:hover{
+    box-shadow: 0px 0px 38px rgba(255, 255, 255, 0.3);
+}
+.face{
+    transition: all 0.3s ease 0s;
+}
+.face:hover{
+    box-shadow: 0px 0px 38px rgba(255, 255, 255, 0.3);
+}
+@media (max-width:1190px){
+    .img-block__father{
+        height: 600px;
+    }
+    .figure-one{
+        left: 40%;
+    }
+    .container{
+        background: none;
+    }
+    html{
+        background:url('../img/1648950936_15-vsegda-pomnim-com-p-snezhnaya-zima-v-lesu-foto-16.jpg') no-repeat fixed center/cover;
+    }
+}
+@media (max-width:767px){
+    .text p{
+        width: 391px;
+        font-size: 20px;
+    }
+    .animate-title{
+        font-size: 30px;
+        width: 290px;
+    }
+}
+@media (max-width:575px){
+    .text p{
+        width: 270px;
+        font-size: 20px;
+    }
+    .img-block__father{
+        height: 530px;
+    }
+    .img-block__father .slick-arrow{
+        top: 100%;
+    }
+    .img-block__father{
+        width: 80%;
+    }
+    .animate-title{
+        font-size: 30px;
+        width: 290px;
+    }
+    .link-number{
+        font-size: 20px;
+    }
+    .familt-link{
+        width: 294px;
+    }
+    .button-link{
+        align-items: center;
+    }
+}
+@media (max-width:420px){
+    .text p{
+        margin-left: 0;
+        width: 100%;
+    }
+    .familt-link{
+        width: 200px;
+        font-size: 15px;
+    }
+    .text{
+        padding: 0 10px;
+    }
+    .name-link{
+        padding-left: 89px;
+        right: 0;
+    }
+}
+@media (max-width:320px){
+    .familt-link{
+        width: 190px;
+        margin-left: 6px;
+    }
+    .animate-title{
+        font-size: 26px;
+    }
+    .link-number{
+        font-size: 15px;
+    }
+    .text p{
+        font-size: 15px;
+        width: 265px;
+    }
+}
